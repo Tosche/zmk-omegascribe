@@ -1,12 +1,13 @@
 file_format: "1"
-id: corax56
-name: Corax56
+id: sofletoshi
+name: SofleToshi
 type: shield
-url: https://github.com/dnlbauer/corax56-keyboard
+url: https://github.com/Tosche/zmk-sofle-encoder-display
 requires: [pro_micro]
 features:
   - keys
   - encoder
+  - display
 siblings:
-  - corax56_left
-  - corax56_right
+  - sofletoshi_left
+  - sofletoshi_right
