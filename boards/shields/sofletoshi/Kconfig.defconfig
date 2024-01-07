@@ -1,0 +1,15 @@
+if SHIELD_CORAX56_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Sofle Toshi"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+endif
+
+if SHIELD_SOFLETOSHI_LEFT || SHIELD_SOFLETOSHI_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
