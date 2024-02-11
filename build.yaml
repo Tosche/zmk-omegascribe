@@ -20,12 +20,12 @@
 include:
   - board: nice_nano_v2
     # shield: sofle_left nice_view_adapter nice_view
-    shield: omegascribe_l nice_view
+    shield: omegascribe_l nice_view_adapter
     # shield: settings_reset
     artifact-name: omegascribe_l
 
   - board: nice_nano_v2
     # shield: sofle_right nice_view_adapter nice_view
-    shield: omegascribe_r nice_view
+    shield: omegascribe_r nice_view_adapter
     # shield: settings_reset
     artifact-name: omegascribe_r
