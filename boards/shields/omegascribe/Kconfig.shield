@@ -1,5 +1,5 @@
 config SHIELD_OMEGASCRIBE_L
-    def_bool $(shields_list_contains, omegascribe_l)
+    def_bool $(shields_list_contains,omegascribe_l)
 
 config SHIELD_OMEGASCRIBE_R
-    def_bool $(shields_list_contains, omegascribe_r)
+    def_bool $(shields_list_contains,omegascribe_r)
