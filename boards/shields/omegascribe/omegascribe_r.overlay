@@ -1,4 +1,4 @@
-#include "sofletoshi.dtsi"
+#include "omegascribe.dtsi"
 
 &default_transform {
     col-offset = <6>;
@@ -6,7 +6,7 @@
 
 &kscan0 {
     // top to bottom
-    // described in sofletoshi.dtsi
+    // described in omegascribe.dtsi
 
     // left to right    
     col-gpios

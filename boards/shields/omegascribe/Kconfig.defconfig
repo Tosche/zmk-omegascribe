@@ -1,13 +1,13 @@
-if SHIELD_SOFLETOSHI_LEFT
+if SHIELD_OMEGASCRIBE_L
 
 config ZMK_KEYBOARD_NAME
-    default "Sofle Toshi"
+    default "OmegaScribe"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-if SHIELD_SOFLETOSHI_LEFT || SHIELD_SOFLETOSHI_RIGHT
+if SHIELD_OMEGASCRIBE_LEFT || SHIELD_OMEGASCRIBE_RIGHT
 
 config ZMK_SPLIT
     default y

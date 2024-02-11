@@ -1,5 +1,0 @@
-config SHIELD_SOFLETOSHI_LEFT
-    def_bool $(shields_list_contains, sofletoshi_left)
-
-config SHIELD_SOFLETOSHI_RIGHT
-    def_bool $(shields_list_contains, sofletoshi_right)

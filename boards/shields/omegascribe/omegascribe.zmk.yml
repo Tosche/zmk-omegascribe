@@ -1,0 +1,13 @@
+file_format: "1"
+id: omegascribe
+name: OmegaScribe
+type: shield
+url: https://github.com/Tosche/zmk-omegascribe
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
+  - display
+siblings:
+  - omegascribe_l
+  - omegascribe_r
