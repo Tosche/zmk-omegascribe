@@ -1,1 +1,1 @@
-#include "boards/shields/omegascribe/omegascribe.keymap"
+#include "../boards/shields/omegascribe/omegascribe.keymap"
