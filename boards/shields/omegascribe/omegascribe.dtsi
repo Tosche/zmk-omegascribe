@@ -55,7 +55,6 @@
         triggers-per-rotation = <15>;
     };
 
-
 //    &pinctrl {
 //        spi0_default: spi0_default {
 //            group1 {
