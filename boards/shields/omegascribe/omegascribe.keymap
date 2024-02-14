@@ -13,6 +13,8 @@
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
+#define GLYPHS 3
+#define GLYPHSKERN 4
 
 
 / {
@@ -56,7 +58,7 @@
                     &trans    &trans      &trans    &trans     &trans &trans  &trans    &trans   &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
         };
 
         raise_layer {
@@ -75,7 +77,26 @@
                         &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
+        };
+
+        glyphs_layer {
+            display-name = "Glyphs";
+// ------------------------------------------------------------------------------------------------------------
+// | ESC | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
+// |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
+// |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
+// |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
+//                |      |       |       |      |      |  |      |      |      |       |      |
+            bindings = <
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                  &trans    &trans    &trans   &trans    &trans  &trans
+&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                        &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
+&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                      &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans  &trans  &trans    &trans    &trans   &trans    &trans  &trans
+                        &trans       &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp UP DOWN>;
         };
     };
 };
