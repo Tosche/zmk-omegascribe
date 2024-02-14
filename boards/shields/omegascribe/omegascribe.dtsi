@@ -29,7 +29,7 @@
         , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 1 (UPPER)
         , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 2 (HOME)
         , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 3 (LOWER)
-        , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 4 (THUMB + ROT)
+        , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // COL 4 (THUMB + ROTARY CLICK)
         ;
     };
 
@@ -38,7 +38,7 @@
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <30>;
-        status = "ok";
+        status = "disabled";
     };
 
     encoder_right: encoder_right {
@@ -46,7 +46,7 @@
         a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <30>;
-        status = "ok";
+        status = "disabled";
     };
 
     sensors: sensors {

@@ -15,9 +15,9 @@
         ;
 };
 
-//&encoder_left {
-//    status = "okay";
-//};
+&encoder_left {
+    status = "okay";
+};
 
 // nice_view_spi: &spi0 {
 //     compatible = "nordic,nrf-spim";
