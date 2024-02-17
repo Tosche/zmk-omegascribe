@@ -32,6 +32,18 @@
             bindings = <&kp RET>;
             key-positions = <53 54>;
         };
+
+        close {
+            bindings = <&kp LG(W)>;
+            key-positions = <52 14>;
+            layers = <2>;
+        };
+
+        save {
+            bindings = <&kp LG(S)>;
+            key-positions = <26 52>;
+            layers = <2>;
+        };
     };
 
     keymap {
