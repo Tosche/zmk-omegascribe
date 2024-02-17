@@ -1,3 +1,6 @@
+// Not for use in zmk but Keymap layout tools
+// https://nickcoutsos.github.io/keymap-layout-tools/
+
 {
   "id": "omegascribe",
   "name": "OmegaScribe",
