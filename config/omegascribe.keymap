@@ -21,7 +21,7 @@
             #binding-cells = <0>;
             bindings = <&to 0>, <&to 2>, <&to 3>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
         };
     };
 
@@ -106,11 +106,11 @@
 
         glyphs_kerning_layer {
             bindings = <
-&trans  &trans     &trans        &kp LA(PG_UP)             &kp LA(PAGE_DOWN)  &kp BACKSPACE                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(K)  &kp UP_ARROW  &kp LS(LG(LEFT_BRACKET))  &kp LA(LG(F))      &kp LS(LG(RIGHT_BRACKET))                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT   &kp DOWN      &kp RIGHT                 &kp ESCAPE         &kp T                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans        &trans                    &trans             &trans                     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans        &trans                    &trans             &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans        &kp LA(PG_UP)              &kp LA(PAGE_DOWN)  &kp BACKSPACE                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW  &kp LS(LG(RIGHT_BRACKET))  &kp LA(LG(K))      &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT                  &kp DOWN      &kp RIGHT                  &kp LA(LG(F))      &kp T                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                    &trans        &trans                     &trans             &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans                     &trans             &trans         &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Kerning";
