@@ -116,7 +116,7 @@
             label = "Kerning";
             sensor-bindings =
                 <&inc_dec_kp LC(LA(LS(LEFT))) LC(LA(LS(RIGHT)))>,
-                <&inc_dec_kp LC(LA(LEFT)) LC(LA(RIGHT))>;
+                <&inc_dec_kp LC(LA(RIGHT)) LC(LA(LEFT))>;
         };
     };
 };
