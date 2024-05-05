@@ -98,7 +98,7 @@
 &trans  &kp L          &kp E              &kp P          &kp V          &kp T                          &trans  &kp LG(MINUS)   &kp UP_ARROW    &kp LG(PLUS)  &trans  &trans
 &trans  &kp LG(A)      &kp LG(S)          &kp LG(U)      &kp LG(R)      &kp LG(J)                      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT     &trans  &trans
 &trans  &kp LG(Z)      &kp LC(LG(M))      &kp LG(C)      &kp LG(V)      &kp LG(B)      &trans  &trans  &trans  &trans          &kp HOME        &kp END       &trans  &trans
-                       &trans             &trans         &trans         &trans         &trans  &trans  &trans  &trans          &trans          &trans
+                       &trans             &trans         &trans         &trans         &trans  &trans  &mo 0   &trans          &trans          &trans
             >;
 
             label = "Glyphs";
@@ -110,7 +110,7 @@
 &trans  &kp LS(LG(LEFT_BRACKET))  &kp UP_ARROW  &kp LS(LG(RIGHT_BRACKET))  &kp LA(LG(K))      &trans                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT                  &kp DOWN      &kp RIGHT                  &kp LA(LG(F))      &kp T                          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                    &trans        &trans                     &trans             &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans        &trans                     &trans             &trans         &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans                     &trans             &trans         &trans  &trans  &mo 0   &trans  &trans  &trans
             >;
 
             label = "Kerning";
